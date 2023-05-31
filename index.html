@@ -12,10 +12,45 @@
     <link rel="stylesheet" href="css/icon-font.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-
     <title>Hikers | Exciting tours and thrilling hikes</title>
   </head>
   <body>
+    <div class="navigation">
+      <input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
+
+      <label for="navi-toggle" class="navigation__button"
+        ><span class="navigation__icon">&nbsp;</span></label
+      >
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>About Hikers</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>02</span>Your Benefits</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#tours" class="navigation__link"
+              ><span>03</span>Popular Tours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#stories" class="navigation__link"
+              ><span>04</span>Stories</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#book" class="navigation__link"><span>05</span>Book Now</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <header class="header">
       <div class="header__logo-box">
         <img src="./img/logo-white.png" alt="logo" class="header__logo" />
@@ -30,32 +65,6 @@
         <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
       </div>
     </header>
-
-    <!-- <section class="grid-layout">
-
-      <div class="row">
-        <div class="col-1-of-3">Col 1 of 3</div>
-        <div class="col-2-of-3">Col 2 of 3</div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-2-of-4">Col 2 of 4</div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">Col 1 of 4</div>
-        <div class="col-3-of-4">Col 3 of 4</div>
-      </div>
-    </section> -->
 
     <main>
       <section class="section-about">
@@ -166,7 +175,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Most popular tours</h2>
         </div>
@@ -280,7 +289,7 @@
         </div>
       </section>
 
-      <section class="section-stories">
+      <section class="section-stories" id="stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4" />
@@ -349,7 +358,7 @@
         </div>
       </section>
 
-      <section class="section-book">
+      <section class="section-book" id="book">
         <div class="row">
           <div class="book">
             <div class="book__form">
@@ -451,5 +460,34 @@
         </div>
       </div>
     </footer>
+
+    <div class="popup">
+      <div class="popup__content">POPUP</div>
+    </div>
+    <!-- <section class="grid-layout">
+
+      <div class="row">
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-2-of-3">Col 2 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-2-of-4">Col 2 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-3-of-4">Col 3 of 4</div>
+      </div>
+    </section> -->
   </body>
 </html>
