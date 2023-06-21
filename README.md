@@ -9,8 +9,6 @@ Hikers is a web application for booking tours and hikes. It provides users with 
 - Browse and search for available tours and hikes.
 - View detailed information about each activity, including descriptions, photos, duration, and pricing.
 - Book tours and hikes securely through the integrated payment gateway.
-- Create an account and manage bookings and preferences.
-- Interactive maps to visualize activity locations.
 - Share bookings and experiences on social media platforms.
 - Responsive design for optimal viewing on different devices and screen sizes.
 
